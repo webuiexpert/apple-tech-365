@@ -1,0 +1,297 @@
+body {
+    font-family: "Barlow", serif;
+    font-style: normal;
+    font-size: 16px;
+    color: #272b34;
+}
+
+.container {
+    max-width: 1392px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: initial;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Title {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 26px;
+}
+
+.Title-lg {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 26px;
+    color: #666;
+}
+
+.TextRed {
+    color: #CC1D2E;
+}
+
+.TextWhite {
+    color: #fff;
+}
+
+.Bg-Black {
+    background: #000;
+}
+
+.Bg-AntiflashWhite {
+    background: #eff3fa;
+}
+
+.Bg-CharlestonGrey {
+    background: #272b34;
+}
+
+.Bg-Red {
+    background: #CC1D2E;
+}
+
+/* HOME PAGE */
+.ActionBar {
+    background: #272b34;
+    color: #fff;
+
+    h1 {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .CallUs {
+        font-size: 12px;
+    }
+}
+
+.TopNav {
+    >li {
+        position: relative;
+    }
+
+    li {
+        padding-left: 11px;
+        padding-right: 11px;
+
+        >a {
+            i {
+                font-size: 12px;
+                margin-left: 5px;
+            }
+        }
+
+        a {
+            color: #636d83;
+            font-weight: 500;
+            font-size: 16px;
+            display: block;
+        }
+
+        .sub-nav {
+            display: none;
+            position: absolute;
+            width: 240px;
+            background: white;
+            border-radius: 12px;
+            padding: 15px;
+            line-height: 40px;
+
+        }
+
+        &:hover {
+            & .sub-nav {
+                display: block;
+
+                a {
+                    &:hover {
+                        color: #ff4d6a;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+/* .TopNav li:hover .sub-nav {
+    display: block;
+} */
+
+.FeaturedSection {
+    padding-bottom: 110px;
+    padding-top: 85px;
+
+}
+
+.DecadesSection {
+    background: #eff3fa;
+    padding-top: 70px;
+    padding-bottom: 55px;
+}
+
+.EmpoweringSection {
+    background: #eff3fa;
+
+    .Content {
+        border-radius: 10px;
+        background: #fff;
+    }
+}
+
+.PartnerSection {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.EmpoweringSection {
+    padding: 70px 0;
+}
+
+.Subtitle {
+    color: #636d83;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.ItSupport {
+    /* background: url(/images/Group.png) no-repeat; */
+    background: url(../../images/Group.png)no-repeat;
+    background-size: 45%;
+    background-position: left top;
+    padding-bottom: 360px;
+
+    li {
+        display: flex;
+
+        h4 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+}
+
+.Technology {
+    background: url(../../images/make-tech.png) no-repeat right top #eff3fa;
+    font-weight: 500;
+    background-size: 45%;
+    padding-top: 290px;
+    padding-bottom: 209px;
+    margin-bottom: 120px;
+}
+
+.CustomerReview {
+    background: url(../../images/client.png) no-repeat right top #272b34;
+    font-weight: 500;
+    background-size: 45%;
+    color: #fff;
+    padding-top: 110px;
+    padding-bottom: 200px;
+}
+
+.TruestedSection {
+    padding-top: 110px;
+    padding-bottom: 15px;
+}
+
+.ServiceSection {
+    padding: 110px 0;
+
+    .thumbtitle {
+        h2 {
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+}
+
+.ContactSection {
+    padding: 90px 0;
+
+    input {
+        height: 42px;
+    }
+
+    textarea {
+        resize: none;
+        height: 200px;
+        padding: .375rem .75rem;
+        border-radius: 6px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+}
+
+footer {
+    padding: 30px 0;
+
+    h4 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    ul {
+        margin-bottom: 15px;
+    }
+
+    a {
+        color: #d7dde9;
+    }
+
+    .Subscribtion {
+        button {
+            height: 100%;
+        }
+    }
+}
+
+/* NEW SECTIONS */
+.GatewaySection {
+    padding-top: 95px;
+}
+
+.ExpertSection {
+    padding-top: 120px;
+
+    p {
+        font-size: 20px;
+    }
+
+    .points {
+        li {
+            font-size: 16px;
+            font-weight: 500;
+
+            i {
+                width: 20px;
+                height: 20px;
+                font-size: 20px;
+            }
+        }
+    }
+}

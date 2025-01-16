@@ -14,6 +14,15 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/customsheet.css">
+    <link rel="stylesheet" href="css/media-screen.css">
+
+    <!---Remix Icons ------>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
 
 <body>
@@ -43,110 +52,268 @@
         </section>
     </header>
     <!-- NAVIGATION SECTION -->
-    <section class="container">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 px-5">
+    <nav id="header" class=" navbar navbar-expand-lg navbar-light bg-light">
+        <div  class="container">
             <a href="#" class="col-md-1 mb-2 mb-md-0"><img src="images/logo.png" alt="Logo"></a>
-            <ul class="TopNav nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li>
-                    <a href="#">Mac <i class="bi bi-chevron-down"></i></a>
-                    <ul class="sub-nav">
-                        <li><a href="">MacBook Air M1</a></li>
-                        <li><a href="">MacBook Air M2</a></li>
-                        <li><a href="">MacBook Air M3</a></li>
-                        <li><a href="">MacBook Pro</a></li>
-                        <li><a href="">Mac Mini</a></li>
-                        <li><a href="">iMac</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">AirPods <i class="bi bi-chevron-down"></i></a>
-                    <ul class="sub-nav">
-                        <li><a href="">AirPods 3rd Generation</a></li>
-                        <li><a href="">AirPods 4</a></li>
-                        <li><a href="">AirPods</a></li>
-                        <li><a href="">AirPods Max</a></li>
-                        <li><a href="">Mac Mini</a></li>
-                        <li><a href="">iMac</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">iPad <i class="bi bi-chevron-down"></i></a>
-                    <ul class="sub-nav">
-                        <li><a href="">MacBook Air M1</a></li>
-                        <li><a href="">MacBook Air M2</a></li>
-                        <li><a href="">MacBook Air M3</a></li>
-                        <li><a href="">MacBook Pro</a></li>
-                        <li><a href="">Mac Mini</a></li>
-                        <li><a href="">iMac</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Watch <i class="bi bi-chevron-down"></i></a>
-                    <ul class="sub-nav">
-                        <li><a href="">MacBook Air M1</a></li>
-                        <li><a href="">MacBook Air M2</a></li>
-                        <li><a href="">MacBook Air M3</a></li>
-                        <li><a href="">MacBook Pro</a></li>
-                        <li><a href="">Mac Mini</a></li>
-                        <li><a href="">iMac</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Tv & Home <i class="bi bi-chevron-down"></i></a>
-                    <ul class="sub-nav">
-                        <li><a href="">MacBook Air M1</a></li>
-                        <li><a href="">MacBook Air M2</a></li>
-                        <li><a href="">MacBook Air M3</a></li>
-                        <li><a href="">MacBook Pro</a></li>
-                        <li><a href="">Mac Mini</a></li>
-                        <li><a href="">iMac</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">promotions <i class="bi bi-chevron-down"></i></a>
-                    <ul class="sub-nav">
-                        <li><a href="">MacBook Air M1</a></li>
-                        <li><a href="">MacBook Air M2</a></li>
-                        <li><a href="">MacBook Air M3</a></li>
-                        <li><a href="">MacBook Pro</a></li>
-                        <li><a href="">Mac Mini</a></li>
-                        <li><a href="">iMac</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Company <i class="bi bi-chevron-down"></i></a>
-                    <ul class="sub-nav">
-                        <li><a href="">MacBook Air M1</a></li>
-                        <li><a href="">MacBook Air M2</a></li>
-                        <li><a href="">MacBook Air M3</a></li>
-                        <li><a href="">MacBook Pro</a></li>
-                        <li><a href="">Mac Mini</a></li>
-                        <li><a href="">iMac</a></li>
-                    </ul>
-                </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="desknavbar collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Mac
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/apple-tech-365/MacBook-Air-M1.html">MacBook Air M1</a></li>
+                            <li><a class="dropdown-item" href="#">MacBook Air M2</a></li>
+                            <li><a class="dropdown-item" href="#">MacBook Air M3</a></li>
+                            <li><a class="dropdown-item" href="#">MacBook Pro</a></li>
+                            <li><a class="dropdown-item" href="#">Mac Mini</a></li>
+                            <li><a class="dropdown-item" href="#">iMac</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Airpods
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">AirPods 3rd Generation</a></li>
+                            <li><a class="dropdown-item" href="#">AirPods 4</a></li>
+                            <li><a class="dropdown-item" href="#">AirPods</a></li>
+                            <li><a class="dropdown-item" href="#">AirPods Max</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            iPad
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">iPad Air</a></li>
+                            <li><a class="dropdown-item" href="#">iPad Mini</a></li>
+                            <li><a class="dropdown-item" href="#">iPad Pro</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Watch
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Apple Watch Ultra 2</a></li>
+                            <li><a class="dropdown-item" href="#">Apple Watch Series 10</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Tv & Home
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">HomePod</a></li>
+                            <li><a class="dropdown-item" href="#">HomePod Mini</a></li>
+                            <li><a class="dropdown-item" href="#">Apple TV HD</a></li>
+                            <li><a class="dropdown-item" href="#">Apple TV 4K</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Permotions
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">India<a></li>
+                            <li><a class="dropdown-item" href="#">USA</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Company
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">About Us</a></li>
+                            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
             <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
                 <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
             </form>
         </div>
-    </section>
-    <!-- BANNER SECTION -->
-    <section class="container mb-5">
-        <img src="images/banner-2.png" alt="Slide 1">
-    </section>
+    </nav>
 
+    <!-- BANNER SECTION -->
+    <section class="banner-slider">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container bg-position d-flex justify-content-center align-items-center py-5 rounded-5 border"
+                        style="background:url('products-images/apple-slider-2-bgshadow.webp'); background-position:center;background-size:cover;background-repeat:no-repeat;height:100vh">
+                        <div class="display-flex row px-5">
+                           <div class="col-left text-light">
+                            <h5><a href="#" class="fs-3">iMac & Macbook</a></h5>
+                                <h2 class="">Inspired By The Best Of Apple.</h2>
+                                <p class="mt-3">Experience the power of innovation with Apple Mac. Whether you’re a
+                                    design enthusiast, a business professional, or a student on the go, Mac offers
+                                    cutting-edge performance and stunning displays to meet your needs.</p>
+                                <button class="px-5 Bg-Red py-3 border-0 mt-5 rounded-2"><a href="#"
+                                        class="fw-bold text-light">Learn More</a></button>
+                            
+                           </div>
+                           <div class="col-right">
+                            <img src="products-images/apple-slider-2-img-1.webp" alt="">
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container bg-position d-flex justify-content-center align-items-center py-5 rounded-5 border"
+                        style="background:url('products-images/apple-slider-3-bgshadow.webp');background-position:center;background-size:cover;background-repeat:no-repeat;height:100vh">
+                        <div class="display-flex row px-5 px-sm-1">
+                            <div class="col-left text-light">
+                             <h5><a href="#" class="fs-3">Airpods</a></h5>
+                                 <h2 class="">A Magical Connection To Your Devices.</h2>
+                                 <p class="mt-3">mmerse yourself in the world of sound like never before with Apple AirPods. These wireless earbuds redefine your audio experience with unparalleled clarity and convenience. Enjoy effortless pairing, crystal-clear calls, and seamless Siri integration</p>
+                                 <button class="px-5 Bg-Red py-3 border-0 mt-5 rounded-2"><a href="#"
+                                         class="fw-bold text-light">Learn More</a></button>
+                             
+                            </div>
+                            <div class="col-right">
+                             <img src="products-images/apple-slider-3-img-2.webp" alt="">
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container bg-position d-flex justify-content-center align-items-center py-5 rounded-5 border"
+                        style="background:url('products-images/apple-slider-4-bgshadow.webp');background-position:center;background-size:cover;background-repeat:no-repeat;height:100vh">
+                        <div class="display-flex row px-5 px-sm-1">
+                            <div class="col-left text-light">
+                             <h5><a href="#" class="fs-3">iPads</a></h5>
+                                 <h2 class="">The Ultimate iPad Experience.</h2>
+                                 <p class="mt-3">Discover limitless possibilities with Apple iPads. These iconic tablets are your gateway to creativity, productivity, and entertainment, all in one sleek device. Whether you’re a student, artist, professional, or just an avid content consumer, there’s an iPad for you.</p>
+                                 <button class="px-5 Bg-Red py-3 border-0 mt-5 rounded-2"><a href="#"
+                                         class="fw-bold text-light">Learn More</a></button>
+                             
+                            </div>
+                            <div class="col-right">
+                             <img src="products-images/apple-slider-4-img-1.webp" alt="">
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container bg-position d-flex justify-content-center align-items-center py-5 rounded-5 border"
+                        style="background:url('products-images/apple-slider-5-bgshadow.webp');background-position:center;background-size:cover;background-repeat:no-repeat;height:100vh">
+                        <div class="display-flex row px-5 px-sm-1">
+                            <div class="col-left text-light">
+                             <h5><a href="#" class="fs-3">Apple TV</a></h5>
+                                 <h2 class="">Cinematic Experience in Every Sense.</h2>
+                                 <p class="mt-3">Transform your home into an entertainment hub with Apple TV and HomePods. Immerse yourself in cinematic experiences with Apple TV’s 4K HDR capabilities, bringing your favorite movies and shows to life in stunning detail.</p>
+                                 <button class="px-5 Bg-Red py-3 border-0 mt-5 rounded-2"><a href="#"
+                                         class="fw-bold text-light">Learn More</a></button>
+                             
+                            </div>
+                            <div class="col-right">
+                             <img src="products-images/apple-slider-5-img-1.webp" alt="">
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container bg-position d-flex justify-content-center align-items-center py-5 rounded-5 border"
+                        style="background:url('products-images/imgpsh_fullsize_anim-scaled.webp');background-position:center;background-size:cover;background-repeat:no-repeat;height:100vh">
+                        <div class="display-flex row px-5 px-sm-1">
+                            <div class="col-left text-light">
+                             <h5><a href="#" class="fs-3"><img src="products-images/image-PhotoRoom-12.webp" alt=""></a></h5>
+                                 <h2 class="">Empowering the Extraordinary</h2>
+                                 <button class="px-5 Bg-Red py-3 border-0 mt-5 rounded-2"><a href="#"
+                                         class="fw-bold text-light">Get a Quote</a></button>
+                             
+                            </div>
+                            <div class="col-right">
+                            </div>
+                         </div>
+                    </div>
+                </div>
+               
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
     <!-- FEATURED SECTION -->
-    <section class="container">
-        <div class="FeaturedSection Bg-AntiflashWhite rounded-4">
-            <h2 class="Title text-center">Explore The World Of Mac </h2>
-            <img src="images/featured-slider.png" alt="slider">
+    <section class="FeaturedSection">
+        <div class="container">
+            <h2 class="Title text-center">Featured <span class="TextRed">Section</span></h2>
+            <p class="Subtitle text-center mb-5">Products Suiting Your Technology Needs</p>
+            <div class="mt-6">
+                <div class="owl-carousel owl-theme">
+                    <div class="product-item">
+                        <div class="fet-prod-img"> <img src="products-images/MacBook-Air-M1.webp" alt="Product 1"></div>
+                        <div class="product-title">Product 1</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="fet-prod-img"> <img src="products-images/MacBook-Air-M1.webp" alt="Product 2"></div>
+                        <div class="product-title">Product 2</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="fet-prod-img"> <img src="products-images/MacBook-Air-M2.webp" alt="Product 3">
+                        </div>
+                        <div class="product-title">Product 3</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="fet-prod-img"> <img src="products-images/MacBook-Air-M1.webp" alt="Product 4"></div>
+                        <div class="product-title">Product 4</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="fet-prod-img"> <img src="products-images/Mac-Mini.webp" alt="Product 5"></div>
+                        <div class="product-title">Product 5</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="fet-prod-img"> <img src="products-images/MacBook-Air-M1.webp" alt="Product 6"></div>
+                        <div class="product-title">Product 6</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="fet-prod-img"> <img src="products-images/MacBook-Air-M2.webp" alt="Product 7"></div>
+                        <div class="product-title">Product 7</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="fet-prod-img"> <img src="products-images/MacBook-Pro-14-16.webp" alt="Product 8">
+                        </div>
+                        <div class="product-title">Product 8</div>
+                    </div>
+                    <div class="product-item">
+                        <div class="fet-prod-img"> <img src="products-images/MacBook-Air-M1.webp" alt="Product 9">
+                        </div>
+                        <div class="product-title">Product 9</div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
     <!-- CONTACT EXPERTS SECTION -->
     <section class="container">
-        <div class="ExpertSection">
-            <div class="row">
+        <div class="ExpertSection ">
+            <div class="row px-5 px-md-0 ">
                 <div class="col-md-6">
                     <h2 class="Title-lg mb-5">iMac 24”</h2>
                     <p>Inspired by the best of Apple. Transformed by the M4 chip. Stands out in any space. Fits
@@ -154,7 +321,7 @@
                     </p>
                     <a href="" class="Bg-Red rounded-3 TextWhite px-5 py-4 d-inline-flex">Contact Our Experts</a>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <ul class="points">
                         <li>
                             <i
@@ -191,33 +358,277 @@
         </div>
     </section>
 
+    <!-- GateWay Section -->
 
-    <!-- GATEWAY SECTION -->
-    <section class="container GatewaySection bg-black rounded-5 overflow-hidden">
+    <section  style="background:url('products-images/airbod-bg.png'); background-position:center;background-size:cover;background-repeat:no-repeat;" class="container GatewaySection rounded-5 overflow-hidden">
         <div class="row">
             <div class="col-md-6 m-auto text-center mb-2">
-                <h2 class="Title-lg text-center text-white">Your <span class="TextRed">Gateway</span> to Tomorrow’s Tech
-                </h2>
+                <h1>AirPods</h1>
+                <h2 class="my-5">A Magical Connection To Your Devices</h2>
+                <button class="px-4 py-3 Bg-Red border-0 rounded-2 text-light"><a href="#">Get a Quote</a></button>
             </div>
-            <img src="images/gateway.png" alt="Gateway" class="px-0">
+            <div class="owl-carousel owl-theme mt-5">
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/AirPods-Max.webp" alt="Product 1"></div>
+                    <div class="product-title">Product 1</div>
+                </div>
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/AirPods-3rd-Generation.webp" alt="Product 2"></div>
+                    <div class="product-title">Product 2</div>
+                </div>
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/airpods__ea3kvnhxv96q_large-removebg-preview.png" alt="Product 3">
+                    </div>
+                    <div class="product-title">Product 3</div>
+                </div>
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/AirPods-Max.webp" alt="Product 4"></div>
+                    <div class="product-title">Product 4</div>
+                </div>
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/AirPods-3rd-Generation.webp" alt="Product 5"></div>
+                    <div class="product-title">Product 5</div>
+                </div>
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/AirPods-Max.png" alt="Product 6"></div>
+                    <div class="product-title">Product 6</div>
+                </div>
+               
+           
+               
+            </div>
+            
         </div>
 
     </section>
 
+    <!-- iPAD Pro SECTION -->
+    <section  style="background:url('products-images/hero_combo__fcqcc3hbzjyy_large_2x-1.png'); background-position:right center;background-size:70%;background-repeat:no-repeat;" class="container mt-5 ipadPro-section rounded-5 overflow-hidden">
+        <div class="row Bg-Black py-5 rounded-5">
+            <div class="row">
+                <div class="col-md-4 m-auto text-left mb-2">
+                    <h1>iPad Pro</h1>
+                    <h2 class="my-5">The ultimate iPad experience with the most advanced technology</h2>
+                    <button class="px-4 py-3 Bg-Red border-0 rounded-2 text-light"><a href="#">Get a Quote</a></button>
+                </div>
+                <div class="col-md-6 m-auto text-center mb-2">
+                  <img src="products-images/ipad-pro-bg.jpg" alt="">
+                </div>
+            </div>
+           
+            <div class="owl-carousel owl-theme mt-5">
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/iPad-Pro.png" alt="Product 1"></div>
+                    <div class="product-title text-light fs-5">iPad Pro</div>
+                </div>
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/iPad-Air.png" alt="Product 2"></div>
+                    <div class="product-title text-light fs-5">iPad Air</div>
+                </div>
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/iPad-Mini.png" alt="Product 3">
+                    </div>
+                    <div class="product-title text-light fs-5">iPad Mini</div>
+                </div>
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/iPad-Pro.png" alt="Product 4"></div>
+                    <div class="product-title text-light fs-5">iPad Pro</div>
+                </div>
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/iPad-Air.png" alt="Product 5"></div>
+                    <div class="product-title text-light fs-5">iPad Air</div>
+                </div>
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images//iPad-Mini.png" alt="Product 6"></div>
+                    <div class="product-title text-light fs-5">iPad Mini</div>
+                </div>
+               
+           
+               
+            </div>
+            
+        </div>
+
+    </section>
+
+     <!-- GateWay Section -->
+
+     <section  style="background:url('products-images/airbod-bg.png'); background-position:center;background-size:cover;background-repeat:no-repeat;" class="container mt-5 GatewaySection rounded-5 overflow-hidden">
+        <div class="row">
+            <div class="col-md-6 m-auto text-center mb-2">
+                <h1>AirPods</h1>
+                <h2 class="my-5">A Magical Connection To Your Devices</h2>
+                <button class="px-4 py-3 Bg-Red border-0 rounded-2 text-light"><a href="#">Get a Quote</a></button>
+            </div>
+            <img src="products-images/apple-tv.png" alt="">
+            <div class="owl-carousel owl-theme mt-5">
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/Apple-TV-HD.png" alt="Product 1"></div>
+                    <div class="product-title">Apple TV HD</div>
+                </div>
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/HomePod.png" alt="Product 2"></div>
+                    <div class="product-title">HomePod</div>
+                </div>
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/HomePod-Mini.png" alt="Product 3">
+                    </div>
+                    <div class="product-title">HomePod Mini</div>
+                </div>
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/Apple-TV-4K.png" alt="Product 4"></div>
+                    <div class="product-title">Apple TV 4k</div>
+                </div>
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/Apple-TV-HD.png" alt="Product 1"></div>
+                    <div class="product-title">Apple TV HD</div>
+                </div>
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/HomePod.png" alt="Product 2"></div>
+                    <div class="product-title">HomePod</div>
+                </div>
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/HomePod-Mini.png" alt="Product 3">
+                    </div>
+                    <div class="product-title">HomePod Mini</div>
+                </div>
+                <div class="product-item">
+                    <div class="fet-prod-img"> <img src="products-images/Apple-TV-4K.png" alt="Product 4"></div>
+                    <div class="product-title">Apple TV 4k</div>
+                </div>
+               
+           
+               
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!---- ACCESSORIES SECTION --->
+ <section class="accessory-section py-7">
+    <div class="container">
+        <h2 class="Title-lg text-center text-dark">Feature Apple<span class="TextRed">Accessories</span></h2>
+        <div class="row mt-5">
+          <div class="col text-center Bg-AntiflashWhite px-3 me-3 pt-5 border rounded-5">
+            <h3>iPad Pro</h3>
+            <h5>Accessories</h5>
+            <img src="products-images/ipad-pro.jpg" alt="">
+          </div>
+          <div class="overflow-hidden col text-center Bg-AntiflashWhite px-3 pt-5 ms-3 border rounded-5">
+            <h3><span><i class="ri-apple-fill"></i></span>WATCH</h3>
+            <h5>Bands</h5>
+            <img class="watchBand" src="products-images/apple-watch-1.jpg" alt="">
+          </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col text-center Bg-AntiflashWhite px-3 me-3 pt-5 border rounded-5">
+                <h3>Mac</h3>
+                <h5>Accessories</h5>
+                <div class="accImgBox">
+                <img class="access-img" src="products-images/keyboard.png" alt="">
+                </div>
+              </div>
+              <div class="col text-center Bg-AntiflashWhite px-3 me-3 pt-5 border rounded-5">
+                <h3>Sound</h3>
+                <h5>Headphones & Speaker</h5>
+                <div class="accImgBox">
+                <img class="access-img" src="products-images/homepod-1.png" alt="">
+                </div>
+              </div>
+              <div class="col text-center Bg-AntiflashWhite px-3 pt-5 border rounded-5">
+                <h3>AirTag</h3>
+                <h5>Accessories</h5>
+                <div class="accImgBox">
+                <img class="access-img" src="products-images/airtag.png" alt="">
+                </div>
+              </div>
+        </div>
+      </div>
+ </section>
+
+     <!---- DIFFERENCE SECTION --->
+
+ <section class="difference-section">
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-5 col-md-6 d-flex flex-column align-items-start justify-content-center pe-5">
+            <h2 class="Title-lg">We Would Love to <br><span class="TextRed">Hear from You!</span></h2>
+            <p>Welcome to Tech365, your premier destination for Apple products as an Apple Authorized Reseller. Serving New Jersey, New York, Pennsylvania, and beyond, we provide exclusive access to Apple’s revolutionary devices with exceptional customer support. Whether you’re upgrading to the latest MacBook Pro with M4 or M4 Pro chips, exploring the sleek design of an iPhone, or diving into the Apple ecosystem, Tech365 ensures you receive genuine products at competitive prices. Experience the difference of shopping with a trusted partner, backed by expert advice and Apple warranties. At Tech365, we don’t just sell devices—we deliver unparalleled quality and customer satisfaction.</p>
+          </div>
+          <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0"><img src="products-images/How-We-Make-a-Difference.png" alt=""></div>
+        </div>
+        <div class="row mt-10">
+            <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0"><img src="products-images/Why-Buy-From-Tech365.png" alt=""></div>
+            <div class="col-sm-5 col-md-6 d-flex flex-column align-items-start justify-content-center pe-5">
+                <h2 class="Title-lg">Why Buy From <br><span class="TextRed">Tech365?</span></h2>
+                <ul class="points">
+                    <li>
+                        <i
+                            class="bi bi-check Bg-Red rounded-5 text-white d-inline-flex justify-content-center align-items-center mb-3 me-4"></i>Competive Pricing and Volume Discounts.
+                    </li>
+                    <li>
+                        <i
+                            class="bi bi-check Bg-Red rounded-5 text-white d-inline-flex justify-content-center align-items-center mb-3 me-4"></i>Device Enrollment Program (DEP).
+                       
+                    </li>
+                    <li><i
+                            class="bi bi-check Bg-Red rounded-5 text-white d-inline-flex justify-content-center align-items-center mb-3 me-4"></i>Apple CTO(Configure to Order).
+                        </li>
+                    <li><i
+                            class="bi bi-check Bg-Red rounded-5 text-white d-inline-flex justify-content-center align-items-center mb-3 me-4"></i>Trade-In-Prgram.</li>
+                </ul>
+              </div>
+         
+        </div>
+      </div>
+ </section>
+
+    <!-- GateWay Section -->
+
+    <section class="gateWaySection Bg-Black mt-5 py-7">
+        <div class="container">
+            <h2 class="Title-lg text-center text-light">Your <span class="TextRed">Gateway</span> to <br>Tomorrow’s Tech</h2>
+            <div class="row">
+                <img src="products-images/laptop-img-scaled.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
     <!-- TRUSTED SECTION -->
-    <section class="TruestedSection">
+    <section class="TruestedSection py-7">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 m-auto text-center mb-2">
                     <h2 class="Title-lg text-center">Trusted by the <span class="TextRed">Best</span> in the World</h2>
-                    <p class="Subtitle text-center">Companies working with us to simplify their IT process and change
-                        the way
-                        they do
-                        business around the globe.</p>
+                    <p class="Subtitle text-center">Companies working with us to simplify their IT process and change the way they do business around the globe.</p>
                 </div>
+                <div class="marquee-container">
+                    <div class="marquee">
+                      <img src="products-images/maple-shade-school-1.png" alt="Brand 1">
+                      <img src="products-images/nutrisystem.png" alt="Brand 2">
+                      <img src="products-images/ppd-1.png" alt="Brand 3">
+                      <img src="products-images/prosser-public-school-1.jpg" alt="Brand 4">
+                      <img src="products-images/robert-johnson.png" alt="Brand 5">
+                      <img src="products-images/fire-department-city-of-newyork.jpg" alt="Brand 6">
+                      <img src="products-images/image-12.png" alt="Brand 6">
+                      <img src="products-images/extreme-networks-tagline-rgb.png" alt="Brand 6">
+                      <img src="products-images/image-14.png" alt="Brand 6">
+                    </div>
+                    <div class="marquee">
+                        <img src="products-images/maple-shade-school-1.png" alt="Brand 1">
+                        <img src="products-images/nutrisystem.png" alt="Brand 2">
+                        <img src="products-images/ppd-1.png" alt="Brand 3">
+                        <img src="products-images/prosser-public-school-1.jpg" alt="Brand 4">
+                        <img src="products-images/robert-johnson.png" alt="Brand 5">
+                        <img src="products-images/fire-department-city-of-newyork.jpg" alt="Brand 6">
+                        <img src="products-images/image-12.png" alt="Brand 6">
+                        <img src="products-images/extreme-networks-tagline-rgb.png" alt="Brand 6">
+                        <img src="products-images/image-14.png" alt="Brand 6">
+                      </div>
+                  </div>
             </div>
-
-            <img src="images/trusted.png" alt="slider">
         </div>
     </section>
 
@@ -291,15 +702,13 @@
     </section>
 
     <!-- CONTACT SECTION -->
-    <section class="ContactSection Bg-AntiflashWhite">
+    <section class="ContactSection ">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="col-md-9">
                         <h2 class="Title-lg">We Would Love to <br><span class="TextRed">Hear from You!</span></h2>
-                        <p class="Subtitle">Fill out this form with any questions you may have and our team will follow
-                            up
-                            with you.</p>
+                        <p class="Subtitle">Fill out this form with any questions you may have and our team will follow up with you.</p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -326,7 +735,7 @@
                             <input type="text" class="form-control" placeholder="State">
                         </div>
                         <div class="col-12">
-                            <textarea class="col-12 border-0"
+                            <textarea class="col-12 border"
                                 placeholder="Provide the details of the product you are requesting for a quote."></textarea>
                         </div>
                         <div class="col-12">
@@ -340,7 +749,7 @@
     </section>
 
     <!-- FOOTER SECTION -->
-    <footer class="Bg-CharlestonGrey text-white">
+    <footer class="Bg-CharlestonGrey text-white py-7">
         <section class="container">
             <div class="row">
                 <div class="FtrLogo col-md-4">
@@ -416,7 +825,7 @@
                     </div>
                 </div>
 
-                <section class="col-md-3">
+                <section class="col-md-2">
                     <div class="Subscribtion mb-4">
                         <h4>Subscribe To Our Newsletter</h4>
                         <form action="" class="row position-relative">
@@ -443,8 +852,46 @@
 
 
             </div>
+            <div class="row border-top  mt-5 pt-5">
+                <div class="col-md-6 "><p>©Copyright Tech365 2024. All rights are reserved.</p>
+                </div>
+                <div class="col-md-6 social-icons text-end d-flex justify-content-end ">
+                    <span>Follow Us:</span>
+                    <div class="icons ms-3">
+                        <i class="soc-icon ri-facebook-fill fs-5 border p-2 rounded-circle me-2"></i>
+                        <i class="soc-icon ri-linkedin-fill fs-5 border p-2 rounded-circle me-2"></i>
+                        <i class="soc-icon ri-twitter-x-line fs-5 border p-2 rounded-circle me-2"></i>
+                    </div>
+                </div>
+            </div>
         </section>
     </footer>
+
+    <!-- jQuery -->
+    <script>
+
+        let header = document.querySelector("#header")
+        let sticky = header.offsetTop
+        console.log(header.sticky)
+        window.addEventListener("scroll", function(){ 
+            if(window.pageYOffset > sticky){
+                header.classList.add('sticky') }
+            else{
+                header.classList.remove('sticky')
+            }
+        })	
+        </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Owl Carousel JS script file -->
+    <script src="js/owl-carousel.js"></script>
+
+  
 </body>
 
 </html>

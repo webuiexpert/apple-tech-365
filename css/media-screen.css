@@ -57,7 +57,7 @@
     .col.text-center.Bg-AntiflashWhite.px-3.pt-5.border.rounded-5 {
         width: 100%;
     }
-    .accessory-section, .ServiceSection, .ContactSection, .GatewaySection, .FeaturedSection{
+    .accessory-section, .ServiceSection, .ContactSection, .GatewaySection, .FeaturedSection, .ExpertSection{
         padding: 40px 0 !important;
     }
     .ServiceSection .thumb img{
@@ -88,7 +88,15 @@
     .CallContact, .CallUs{
         display: none !important;
     }
-    
+    .marquee img{
+        margin: 0 60px
+    }
+    .points li{
+        font-size: 14px !important;
+    }
+    .mac24-desk{
+        display: none;
+    }
 
 }
 

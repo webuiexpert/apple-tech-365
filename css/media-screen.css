@@ -97,8 +97,36 @@
     .mac24-desk{
         display: none;
     }
+    .thumbtitle h2{
+        font-size: 24px !important;
+    }
+
+    /* -------Mac 1 page ---- */
+    .powerSection{
+        padding-bottom: 40px;
+    }
+    .airM1-banner-section h2{
+        font-size: 42px;
+        line-height: 1.2em;
+    }
+    .airM1-banner-section h3{
+        font-size: 20px;
+        line-height: 1.2em;
+        margin: 0 !important;
+    }
+    .airM1-banner-section button{
+        margin: 50px 0;
+    }
+    section{
+        padding: 0 10px;
+    }
+    .airM1-banner-section .row{
+        padding: 40px 30px !important;
+    }
 
 }
+
+
 
 
 

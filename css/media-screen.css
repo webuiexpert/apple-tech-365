@@ -123,6 +123,9 @@
     .airM1-banner-section .row{
         padding: 40px 30px !important;
     }
+    .powerSection p{
+        width: 100% !important;
+    }
 
 }
 

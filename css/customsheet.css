@@ -68,7 +68,9 @@ a {
 .Bg-Black {
     background: #000;
 }
-
+.fw-semibold{
+    font-weight: 500;
+}
 
 .Bg-AntiflashWhite {
     background: #eff3fa;
@@ -507,6 +509,7 @@ z-index: 111;}
     h2{
         font-size: 100px;
         color: #fff;
+        font-weight: 600;
     }
     h3{
         font-size: 32px;

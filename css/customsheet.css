@@ -312,10 +312,11 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding-left: 80px !important;
+    gap: 20px;
   
 }
 .display-flex .col-left, .col-right{
-    width:50%;
+    width:48%;
 }
 .ipadPro-section .product-item{
     background-color: #272B34;
@@ -425,8 +426,7 @@ z-index: 111;}
     font-weight: 600;
 }
 .watchBand{
-    margin-right: -35px;
-    margin-bottom: -505px;
+ 
     width: 100%;
 }
 .accImgBox{
@@ -489,6 +489,14 @@ z-index: 111;}
     font-size: 12px;
     margin-left: 5px;
 }
+.accessory-section .display-flex{
+    padding: 0 !important;
+}
+
+.owl-prev{ background-image:url(../images/back-arrow.png) !important; background-repeat: no-repeat; width:50px; min-height:50px; text-indent:-9999px;}
+.owl-next{ background:url(../images/nextarrow.png) !important;width:50px; min-height:50px; text-indent:-9999px;}
+
+
 
 /* ---- Mac Air M1 ---- */
 

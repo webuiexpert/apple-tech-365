@@ -37,9 +37,7 @@
     .GatewaySection {
         padding-bottom: 10px !important;
     }
-    .owl-item.active{
-        margin: 0 10px;
-    }
+
     .ipadPro-section .row .col-md-4{
         text-align: center !important;
     }
@@ -56,7 +54,41 @@
        margin: 0 !important;
         width: 100%;
     }
-  
+    .col.text-center.Bg-AntiflashWhite.px-3.pt-5.border.rounded-5 {
+        width: 100%;
+    }
+    .accessory-section, .ServiceSection, .ContactSection, .GatewaySection, .FeaturedSection{
+        padding: 40px 0 !important;
+    }
+    .ServiceSection .thumb img{
+        width: 100%;
+    }
+    .accessory-section h2{
+        font-size: 38px;
+    }
+    .GatewaySection h1{
+        font-size: 62px;
+        line-height: 1.2em;
+    }
+    .GatewaySection h2{
+        font-size: 32px;
+        line-height: 1.4em;
+        margin: 15px 0 20px !important;
+    }
+    .difference-section .row{
+        margin-top: 20px !important;
+    }
+    .Title-lg{
+    font-size: 42px;
+    }
+    .product-item {
+        margin: 0 auto;
+        width: 280px;
+    }
+    .CallContact, .CallUs{
+        display: none !important;
+    }
+    
 
 }
 

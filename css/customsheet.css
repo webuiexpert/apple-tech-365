@@ -24,6 +24,9 @@ h6 {
 .text-gray-90{
     color: #abb4c6;
 }
+.xs-text{
+    font-size: 12px;
+}
 
 ul,
 li {

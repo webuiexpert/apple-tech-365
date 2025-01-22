@@ -319,10 +319,12 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 80px !important;
     gap: 20px;
-  
 }
+.home-section .display-flex{
+    padding-left: 80px !important;
+}
+
 .display-flex .col-left, .col-right{
     width:48%;
 }
@@ -535,5 +537,8 @@ z-index: 111;}
 .subheadtxt p{font-size: 24px; line-height: 32px; margin-bottom:35px;}
 .blacktxt p{color:#000; font-weight: 500;}
 .w-50{max-width: 50%;}
-.greybox{background-color: #eff3fa; padding:60px 40px 50px; margin-top: 0px; margin-bottom: 40px;}
-.min-height-400{min-height: 600px;}
+
+.About-section h2{font-size: 60px;font-weight: 500;}
+.contact-section h2{font-size: 60px;font-weight: 500;}
+.g-5{gap:40px;}
+.edge-solution-section .display-flex{padding: 0 !important;}

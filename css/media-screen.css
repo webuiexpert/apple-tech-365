@@ -126,6 +126,12 @@
     .powerSection p{
         width: 100% !important;
     }
+    .g-5{
+        gap:10px;
+    }
+    .home-section .display-flex{
+        padding-left: 0 !important;
+    }
 
 }
 

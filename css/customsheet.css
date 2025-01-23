@@ -542,3 +542,10 @@ z-index: 111;}
 .contact-section h2{font-size: 60px;font-weight: 500;}
 .g-5{gap:40px;}
 .edge-solution-section .display-flex{padding: 0 !important;}
+.min-height-400{min-height:600px;}
+.w-700{max-width:700px; margin:0 auto;}
+.subheadtitle{font-size:20px; font-weight: bold;}
+.whitbg{background: #fff; padding:20px 20px 0; overflow: hidden; margin-bottom: 20px; min-height: 560px; position: relative;}
+.whitbg h6{font-size: 24px; font-weight:600;}
+.whitbg .text-center{position:absolute; bottom:-20px; min-height: 360px; display: flex; align-items: center; width: 100%; justify-content: center;}
+.new-title{font-size:26px;}

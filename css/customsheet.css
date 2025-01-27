@@ -287,7 +287,16 @@ footer {
         }
     }
 }
-
+.Subscribtion input{
+background-color: #3B414E !important;
+border: 1px solid #3B414E;
+}
+.Subscribtion input::placeholder{
+    color: #abb4c6;
+}
+.Subscribtion button:hover{
+    background-color: #CC1D2E;
+}
 /* NEW SECTIONS */
 .GatewaySection {
     padding-top: 95px;
@@ -565,3 +574,6 @@ z-index: 111;}
 .form-control:focus{ outline: none !important;}
 .ContactSection button{padding: 14px 0 !important;}
 .ContactSection button:hover{background-color: #CC1D2E; color: #fff;}
+#header .form-control{
+    background-color: #EFF3FA;
+}
